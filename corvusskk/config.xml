@@ -55,7 +55,7 @@
     <key name="verticalcand" value="1" />
     <key name="annotation" value="1" />
     <key name="annotatlst" value="1" />
-    <key name="showmodemark" value="0" />
+    <key name="showmodemark" value="1" />
     <key name="showroman" value="1" />
     <key name="showromanjlat" value="1" />
     <key name="showmodeinl" value="1" />
@@ -79,15 +79,15 @@
     <key name="convannot" value="0,0,0x000000,0,0xFFFFFF,3,0,0,0x000000,2" />
   </section>
   <section name="selkey">
-    <key name="1" value="ＡA" />
-    <key name="2" value="ＳS" />
-    <key name="3" value="ＤD" />
-    <key name="4" value="ＦF" />
-    <key name="5" value="ＪJ" />
-    <key name="6" value="ＫK" />
-    <key name="7" value="ＬL" />
-    <key name="8" value="ＧG" />
-    <key name="9" value="ＨH" />
+    <key name="1" value="ＡAa" />
+    <key name="2" value="ＳSs" />
+    <key name="3" value="ＤDd" />
+    <key name="4" value="ＦFf" />
+    <key name="5" value="ＪJj" />
+    <key name="6" value="ＫKk" />
+    <key name="7" value="ＬLl" />
+    <key name="8" value="ＧGg" />
+    <key name="9" value="ＨHh" />
   </section>
   <section name="preservedkeyon">
     <list>
@@ -95,6 +95,7 @@
       <row vkey="0x19" mkey="0" />
       <row vkey="0xF3" mkey="0" />
       <row vkey="0xF4" mkey="0" />
+      <row vkey="0x20" mkey="4" />
     </list>
   </section>
   <section name="preservedkeyoff">
@@ -103,14 +104,15 @@
       <row vkey="0x19" mkey="0" />
       <row vkey="0xF3" mkey="0" />
       <row vkey="0xF4" mkey="0" />
+      <row vkey="0x20" mkey="4" />
     </list>
   </section>
   <section name="keymap">
-    <key name="kana" value="@" />
+    <key name="kana" value="q" />
     <key name="convchar" value="\cq" />
     <key name="jlatin" value="L" />
     <key name="ascii" value="l" />
-    <key name="jmode" value="" />
+    <key name="jmode" value="\cj" />
     <key name="abbrev" value="/" />
     <key name="affix" value="&lt;|>" />
     <key name="nextcand" value="\x20|\cn" />
@@ -757,7 +759,7 @@
       <row ro="$" hi="$" ka="$" an="$" so="0" />
       <row ro="%" hi="%" ka="%" an="%" so="0" />
       <row ro="&amp;" hi="&amp;" ka="&amp;" an="&amp;" so="0" />
-      <row ro="x'" hi="'" ka="'" an="'" so="0" />
+      <row ro="'" hi="'" ka="'" an="'" so="0" />
       <row ro="(" hi="(" ka="(" an="(" so="0" />
       <row ro=")" hi=")" ka=")" an=")" so="0" />
       <row ro="*" hi="*" ka="*" an="*" so="0" />
@@ -773,13 +775,13 @@
       <row ro=">" hi=">" ka=">" an=">" so="0" />
       <row ro="?" hi="？" ka="？" an="?" so="0" />
       <row ro="@" hi="@" ka="@" an="@" so="0" />
-      <row ro="x[" hi="「" ka="「" an="｢" so="0" />
+      <row ro="[" hi="「" ka="「" an="｢" so="0" />
       <row ro="\" hi="\" ka="\" an="\" so="0" />
       <row ro="]" hi="」" ka="」" an="｣" so="0" />
       <row ro="^" hi="^" ka="^" an="^" so="0" />
       <row ro="_" hi="_" ka="_" an="_" so="0" />
       <row ro="`" hi="`" ka="`" an="`" so="0" />
-      <row ro="x{" hi="{" ka="{" an="{" so="0" />
+      <row ro="{" hi="{" ka="{" an="{" so="0" />
       <row ro="|" hi="|" ka="|" an="|" so="0" />
       <row ro="}" hi="}" ka="}" an="}" so="0" />
       <row ro="~" hi="~" ka="~" an="~" so="0" />
@@ -802,6 +804,8 @@
       <row ro="xxk" hi="↑" ka="↑" an="↑" so="0" />
       <row ro="xxl" hi="→" ka="→" an="→" so="0" />
       <row ro="xxL" hi="⇒" ka="⇒" an="⇒" so="0" />
+      <row ro="ji" hi="じ" ka="ジ" an="ｼﾞ" so="0" />
+      <row ro="jk" hi="じん" ka="ジン" an="ｼﾞﾝ" so="0" />
     </list>
   </section>
   <section name="jlatin">
