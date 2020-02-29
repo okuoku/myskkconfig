@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <skk>
-<!--
-
- AZIK 日本語キーボード用サンプル (参照：http://hp.vector.co.jp/authors/VA002116/azik/azikindx.htm)
-
--->
   <section name="dictionary">
     <list>
       <row path="https://skk-dev.github.io/dict/SKK-JISYO.L.gz" enabled="1" />
@@ -84,15 +79,15 @@
     <key name="convannot" value="0,0,0x000000,0,0xFFFFFF,3,0,0,0x000000,2" />
   </section>
   <section name="selkey">
-    <key name="1" value="ＡAa" />
-    <key name="2" value="ＳSs" />
-    <key name="3" value="ＤDd" />
-    <key name="4" value="ＦFf" />
-    <key name="5" value="ＪJj" />
-    <key name="6" value="ＫKk" />
-    <key name="7" value="ＬLl" />
-    <key name="8" value="ＧGg" />
-    <key name="9" value="ＨHh" />
+    <key name="1" value="ＡA" />
+    <key name="2" value="ＳS" />
+    <key name="3" value="ＤD" />
+    <key name="4" value="ＦF" />
+    <key name="5" value="ＪJ" />
+    <key name="6" value="ＫK" />
+    <key name="7" value="ＬL" />
+    <key name="8" value="ＧG" />
+    <key name="9" value="ＨH" />
   </section>
   <section name="preservedkeyon">
     <list>
@@ -111,11 +106,7 @@
     </list>
   </section>
   <section name="keymap">
-
-<!--    <key name="kana" value="q" /> -->
-    <key name="kana" value="@" />		<!-- JP keyboard -->
-<!--    <key name="kana" value="\[" /> -->		<!-- US keyboard -->
-
+    <key name="kana" value="@" />
     <key name="convchar" value="\cq" />
     <key name="jlatin" value="L" />
     <key name="ascii" value="l" />
@@ -188,21 +179,18 @@
       <row st="N" al="n" ok="n" />
       <row st="O" al="o" ok="o" />
       <row st="P" al="p" ok="p" />
-      <row st="Q" al="q" ok="n" />		<!-- q - nn -->
+      <row st="Q" al="q" ok="n" />
       <row st="R" al="r" ok="r" />
       <row st="S" al="s" ok="s" />
       <row st="T" al="t" ok="t" />
       <row st="U" al="u" ok="u" />
       <row st="V" al="v" ok="v" />
       <row st="W" al="w" ok="w" />
-      <row st="X" al="x" ok="s" />		<!-- x - sy/sh -->
+      <row st="X" al="x" ok="s" />
       <row st="Y" al="y" ok="y" />
       <row st="Z" al="z" ok="z" />
-
-      <row st="`" al="`" ok="" />		<!-- JP keyboard -->
-<!--      <row st="{" al="{" ok="" /> -->		<!-- US keyboard -->
-      <row st="+" al=";" ok="t" />		<!-- JP keyboard -->
-<!--      <row st=":" al=";" ok="t" /> -->		<!-- US keyboard -->
+      <row st="`" al="`" ok="" />
+      <row st="+" al=";" ok="t" />
     </list>
   </section>
   <section name="kana">
@@ -212,7 +200,6 @@
       <row ro="u" hi="う" ka="ウ" an="ｳ" so="0" />
       <row ro="e" hi="え" ka="エ" an="ｴ" so="0" />
       <row ro="o" hi="お" ka="オ" an="ｵ" so="0" />
-
       <row ro="ka" hi="か" ka="カ" an="ｶ" so="0" />
       <row ro="ki" hi="き" ka="キ" an="ｷ" so="0" />
       <row ro="ku" hi="く" ka="ク" an="ｸ" so="0" />
@@ -228,7 +215,6 @@
       <row ro="kh" hi="くう" ka="クウ" an="ｸｳ" so="0" />
       <row ro="kw" hi="けい" ka="ケイ" an="ｹｲ" so="0" />
       <row ro="kp" hi="こう" ka="コウ" an="ｺｳ" so="0" />
-
       <row ro="sa" hi="さ" ka="サ" an="ｻ" so="0" />
       <row ro="si" hi="し" ka="シ" an="ｼ" so="0" />
       <row ro="su" hi="す" ka="ス" an="ｽ" so="0" />
@@ -244,7 +230,6 @@
       <row ro="sh" hi="すう" ka="スウ" an="ｽｳ" so="0" />
       <row ro="sw" hi="せい" ka="セイ" an="ｾｲ" so="0" />
       <row ro="sp" hi="そう" ka="ソウ" an="ｿｳ" so="0" />
-
       <row ro="ta" hi="た" ka="タ" an="ﾀ" so="0" />
       <row ro="ti" hi="ち" ka="チ" an="ﾁ" so="0" />
       <row ro="tu" hi="つ" ka="ツ" an="ﾂ" so="0" />
@@ -260,7 +245,6 @@
       <row ro="th" hi="つう" ka="ツウ" an="ﾂｳ" so="0" />
       <row ro="tw" hi="てい" ka="テイ" an="ﾃｲ" so="0" />
       <row ro="tp" hi="とう" ka="トウ" an="ﾄｳ" so="0" />
-
       <row ro="na" hi="な" ka="ナ" an="ﾅ" so="0" />
       <row ro="ni" hi="に" ka="ニ" an="ﾆ" so="0" />
       <row ro="nu" hi="ぬ" ka="ヌ" an="ﾇ" so="0" />
@@ -276,7 +260,6 @@
       <row ro="nh" hi="ぬう" ka="ヌウ" an="ﾇｳ" so="0" />
       <row ro="nw" hi="ねい" ka="ネイ" an="ﾈｲ" so="0" />
       <row ro="np" hi="のう" ka="ノウ" an="ﾉｳ" so="0" />
-
       <row ro="ha" hi="は" ka="ハ" an="ﾊ" so="0" />
       <row ro="hi" hi="ひ" ka="ヒ" an="ﾋ" so="0" />
       <row ro="hu" hi="ふ" ka="フ" an="ﾌ" so="0" />
@@ -292,7 +275,6 @@
       <row ro="hh" hi="ふう" ka="フウ" an="ﾌｳ" so="0" />
       <row ro="hw" hi="へい" ka="ヘイ" an="ﾍｲ" so="0" />
       <row ro="hp" hi="ほう" ka="ホウ" an="ﾎｳ" so="0" />
-
       <row ro="fa" hi="ふぁ" ka="ファ" an="ﾌｧ" so="0" />
       <row ro="fi" hi="ふぃ" ka="フィ" an="ﾌｨ" so="0" />
       <row ro="fu" hi="ふ" ka="フ" an="ﾌ" so="0" />
@@ -308,7 +290,6 @@
       <row ro="fh" hi="ふう" ka="フウ" an="ﾌｳ" so="0" />
       <row ro="fw" hi="ふぇい" ka="フェイ" an="ﾌｪｲ" so="0" />
       <row ro="fp" hi="ふぉー" ka="フォー" an="ﾌｫｰ" so="0" />
-
       <row ro="ma" hi="ま" ka="マ" an="ﾏ" so="0" />
       <row ro="mi" hi="み" ka="ミ" an="ﾐ" so="0" />
       <row ro="mu" hi="む" ka="ム" an="ﾑ" so="0" />
@@ -324,7 +305,6 @@
       <row ro="mh" hi="むう" ka="ムウ" an="ﾑｳ" so="0" />
       <row ro="mw" hi="めい" ka="メイ" an="ﾒｲ" so="0" />
       <row ro="mp" hi="もう" ka="モウ" an="ﾓｳ" so="0" />
-
       <row ro="ya" hi="や" ka="ヤ" an="ﾔ" so="0" />
       <row ro="yu" hi="ゆ" ka="ユ" an="ﾕ" so="0" />
       <row ro="yo" hi="よ" ka="ヨ" an="ﾖ" so="0" />
@@ -335,7 +315,6 @@
       <row ro="yq" hi="やい" ka="ヤイ" an="ﾔｲ" so="0" />
       <row ro="yh" hi="ゆう" ka="ユウ" an="ﾕｳ" so="0" />
       <row ro="yp" hi="よう" ka="ヨウ" an="ﾖｳ" so="0" />
-
       <row ro="ra" hi="ら" ka="ラ" an="ﾗ" so="0" />
       <row ro="ri" hi="り" ka="リ" an="ﾘ" so="0" />
       <row ro="ru" hi="る" ka="ル" an="ﾙ" so="0" />
@@ -351,7 +330,6 @@
       <row ro="rh" hi="るう" ka="ルウ" an="ﾙｳ" so="0" />
       <row ro="rw" hi="れい" ka="レイ" an="ﾚｲ" so="0" />
       <row ro="rp" hi="ろう" ka="ロウ" an="ﾛｳ" so="0" />
-
       <row ro="wa" hi="わ" ka="ワ" an="ﾜ" so="0" />
       <row ro="wi" hi="うぃ" ka="ウィ" an="ｳｨ" so="0" />
       <row ro="we" hi="うぇ" ka="ウェ" an="ｳｪ" so="0" />
@@ -363,7 +341,6 @@
       <row ro="wl" hi="うぉん" ka="ウォン" an="ｳｫﾝ" so="0" />
       <row ro="wq" hi="わい" ka="ワイ" an="ﾜｲ" so="0" />
       <row ro="wp" hi="うぉー" ka="ウォー" an="ｳｫｰ" so="0" />
-
       <row ro="ga" hi="が" ka="ガ" an="ｶﾞ" so="0" />
       <row ro="gi" hi="ぎ" ka="ギ" an="ｷﾞ" so="0" />
       <row ro="gu" hi="ぐ" ka="グ" an="ｸﾞ" so="0" />
@@ -379,7 +356,6 @@
       <row ro="gh" hi="ぐう" ka="グウ" an="ｸﾞｳ" so="0" />
       <row ro="gw" hi="げい" ka="ゲイ" an="ｹﾞｲ" so="0" />
       <row ro="gp" hi="ごう" ka="ゴウ" an="ｺﾞｳ" so="0" />
-
       <row ro="za" hi="ざ" ka="ザ" an="ｻﾞ" so="0" />
       <row ro="zi" hi="じ" ka="ジ" an="ｼﾞ" so="0" />
       <row ro="zu" hi="ず" ka="ズ" an="ｽﾞ" so="0" />
@@ -395,7 +371,6 @@
       <row ro="zh" hi="ずう" ka="ズウ" an="ｽﾞｳ" so="0" />
       <row ro="zw" hi="ぜい" ka="ゼイ" an="ｾﾞｲ" so="0" />
       <row ro="zp" hi="ぞう" ka="ゾウ" an="ｿﾞｳ" so="0" />
-
       <row ro="da" hi="だ" ka="ダ" an="ﾀﾞ" so="0" />
       <row ro="di" hi="ぢ" ka="ヂ" an="ﾁﾞ" so="0" />
       <row ro="du" hi="づ" ka="ヅ" an="ﾂﾞ" so="0" />
@@ -411,7 +386,6 @@
       <row ro="dh" hi="づう" ka="ヅウ" an="ﾂﾞｳ" so="0" />
       <row ro="dw" hi="でい" ka="デイ" an="ﾃﾞｲ" so="0" />
       <row ro="dp" hi="どう" ka="ドウ" an="ﾄﾞｳ" so="0" />
-
       <row ro="ba" hi="ば" ka="バ" an="ﾊﾞ" so="0" />
       <row ro="bi" hi="び" ka="ビ" an="ﾋﾞ" so="0" />
       <row ro="bu" hi="ぶ" ka="ブ" an="ﾌﾞ" so="0" />
@@ -427,7 +401,6 @@
       <row ro="bh" hi="ぶう" ka="ブウ" an="ﾌﾞｳ" so="0" />
       <row ro="bw" hi="べい" ka="ベイ" an="ﾍﾞｲ" so="0" />
       <row ro="bp" hi="ぼう" ka="ボウ" an="ﾎﾞｳ" so="0" />
-
       <row ro="pa" hi="ぱ" ka="パ" an="ﾊﾟ" so="0" />
       <row ro="pi" hi="ぴ" ka="ピ" an="ﾋﾟ" so="0" />
       <row ro="pu" hi="ぷ" ka="プ" an="ﾌﾟ" so="0" />
@@ -443,7 +416,6 @@
       <row ro="ph" hi="ぷう" ka="プウ" an="ﾌﾟｳ" so="0" />
       <row ro="pw" hi="ぺい" ka="ペイ" an="ﾍﾟｲ" so="0" />
       <row ro="pp" hi="ぽう" ka="ポウ" an="ﾎﾟｳ" so="0" />
-
       <row ro="kya" hi="きゃ" ka="キャ" an="ｷｬ" so="0" />
       <row ro="kyu" hi="きゅ" ka="キュ" an="ｷｭ" so="0" />
       <row ro="kye" hi="きぇ" ka="キェ" an="ｷｪ" so="0" />
@@ -457,7 +429,6 @@
       <row ro="kyh" hi="きゅう" ka="キュウ" an="ｷｭｳ" so="0" />
       <row ro="kyw" hi="きぇい" ka="キェイ" an="ｷｪｲ" so="0" />
       <row ro="kyp" hi="きょう" ka="キョウ" an="ｷｮｳ" so="0" />
-
       <row ro="kga" hi="きゃ" ka="キャ" an="ｷｬ" so="0" />
       <row ro="kgu" hi="きゅ" ka="キュ" an="ｷｭ" so="0" />
       <row ro="kge" hi="きぇ" ka="キェ" an="ｷｪ" so="0" />
@@ -471,7 +442,6 @@
       <row ro="kgh" hi="きゅう" ka="キュウ" an="ｷｭｳ" so="0" />
       <row ro="kgw" hi="きぇい" ka="キェイ" an="ｷｪｲ" so="0" />
       <row ro="kgp" hi="きょう" ka="キョウ" an="ｷｮｳ" so="0" />
-
       <row ro="sya" hi="しゃ" ka="シャ" an="ｼｬ" so="0" />
       <row ro="syu" hi="しゅ" ka="シュ" an="ｼｭ" so="0" />
       <row ro="sye" hi="しぇ" ka="シェ" an="ｼｪ" so="0" />
@@ -485,7 +455,6 @@
       <row ro="syh" hi="しゅう" ka="シュウ" an="ｼｭｳ" so="0" />
       <row ro="syw" hi="しぇい" ka="シェイ" an="ｼｪｲ" so="0" />
       <row ro="syp" hi="しょう" ka="ショウ" an="ｼｮｳ" so="0" />
-
       <row ro="xa" hi="しゃ" ka="シャ" an="ｼｬ" so="0" />
       <row ro="xu" hi="しゅ" ka="シュ" an="ｼｭ" so="0" />
       <row ro="xe" hi="しぇ" ka="シェ" an="ｼｪ" so="0" />
@@ -499,7 +468,6 @@
       <row ro="xh" hi="しゅう" ka="シュウ" an="ｼｭｳ" so="0" />
       <row ro="xw" hi="しぇい" ka="シェイ" an="ｼｪｲ" so="0" />
       <row ro="xp" hi="しょう" ka="ショウ" an="ｼｮｳ" so="0" />
-
       <row ro="tya" hi="ちゃ" ka="チャ" an="ﾁｬ" so="0" />
       <row ro="tyu" hi="ちゅ" ka="チュ" an="ﾁｭ" so="0" />
       <row ro="tye" hi="ちぇ" ka="チェ" an="ﾁｪ" so="0" />
@@ -513,7 +481,6 @@
       <row ro="tyh" hi="ちゅう" ka="チュウ" an="ﾁｭｳ" so="0" />
       <row ro="tyw" hi="ちぇい" ka="チェイ" an="ﾁｪｲ" so="0" />
       <row ro="typ" hi="ちょう" ka="チョウ" an="ﾁｮｳ" so="0" />
-
       <row ro="ca" hi="ちゃ" ka="チャ" an="ﾁｬ" so="0" />
       <row ro="cu" hi="ちゅ" ka="チュ" an="ﾁｭ" so="0" />
       <row ro="ce" hi="ちぇ" ka="チェ" an="ﾁｪ" so="0" />
@@ -527,7 +494,6 @@
       <row ro="ch" hi="ちゅう" ka="チュウ" an="ﾁｭｳ" so="0" />
       <row ro="cw" hi="ちぇい" ka="チェイ" an="ﾁｪｲ" so="0" />
       <row ro="cp" hi="ちょう" ka="チョウ" an="ﾁｮｳ" so="0" />
-
       <row ro="nya" hi="にゃ" ka="ニャ" an="ﾆｬ" so="0" />
       <row ro="nyu" hi="にゅ" ka="ニュ" an="ﾆｭ" so="0" />
       <row ro="nye" hi="にぇ" ka="ニェ" an="ﾆｪ" so="0" />
@@ -541,7 +507,6 @@
       <row ro="nyh" hi="にゅう" ka="ニュウ" an="ﾆｭｳ" so="0" />
       <row ro="nyw" hi="にぇい" ka="ニェイ" an="ﾆｪｲ" so="0" />
       <row ro="nyp" hi="にょう" ka="ニョウ" an="ﾆｮｳ" so="0" />
-
       <row ro="nga" hi="にゃ" ka="ニャ" an="ﾆｬ" so="0" />
       <row ro="ngu" hi="にゅ" ka="ニュ" an="ﾆｭ" so="0" />
       <row ro="nge" hi="にぇ" ka="ニェ" an="ﾆｪ" so="0" />
@@ -555,7 +520,6 @@
       <row ro="ngh" hi="にゅう" ka="ニュウ" an="ﾆｭｳ" so="0" />
       <row ro="ngw" hi="にぇい" ka="ニェイ" an="ﾆｪｲ" so="0" />
       <row ro="ngp" hi="にょう" ka="ニョウ" an="ﾆｮｳ" so="0" />
-
       <row ro="hya" hi="ひゃ" ka="ヒャ" an="ﾋｬ" so="0" />
       <row ro="hyu" hi="ひゅ" ka="ヒュ" an="ﾋｭ" so="0" />
       <row ro="hye" hi="ひぇ" ka="ヒェ" an="ﾋｪ" so="0" />
@@ -569,7 +533,6 @@
       <row ro="hyh" hi="ひゅう" ka="ヒュウ" an="ﾋｭｳ" so="0" />
       <row ro="hyw" hi="ひぇい" ka="ヒェイ" an="ﾋｪｲ" so="0" />
       <row ro="hyp" hi="ひょう" ka="ヒョウ" an="ﾋｮｳ" so="0" />
-
       <row ro="hga" hi="ひゃ" ka="ヒャ" an="ﾋｬ" so="0" />
       <row ro="hgu" hi="ひゅ" ka="ヒュ" an="ﾋｭ" so="0" />
       <row ro="hge" hi="ひぇ" ka="ヒェ" an="ﾋｪ" so="0" />
@@ -583,7 +546,6 @@
       <row ro="hgh" hi="ひゅう" ka="ヒュウ" an="ﾋｭｳ" so="0" />
       <row ro="hgw" hi="ひぇい" ka="ヒェイ" an="ﾋｪｲ" so="0" />
       <row ro="hgp" hi="ひょう" ka="ヒョウ" an="ﾋｮｳ" so="0" />
-
       <row ro="mya" hi="みゃ" ka="ミャ" an="ﾐｬ" so="0" />
       <row ro="myu" hi="みゅ" ka="ミュ" an="ﾐｭ" so="0" />
       <row ro="mye" hi="みぇ" ka="ミェ" an="ﾐｪ" so="0" />
@@ -597,7 +559,6 @@
       <row ro="myh" hi="みゅう" ka="ミュウ" an="ﾐｭｳ" so="0" />
       <row ro="myw" hi="みぇい" ka="ミェイ" an="ﾐｪｲ" so="0" />
       <row ro="myp" hi="みょう" ka="ミョウ" an="ﾐｮｳ" so="0" />
-
       <row ro="mga" hi="みゃ" ka="ミャ" an="ﾐｬ" so="0" />
       <row ro="mgu" hi="みゅ" ka="ミュ" an="ﾐｭ" so="0" />
       <row ro="mge" hi="みぇ" ka="ミェ" an="ﾐｪ" so="0" />
@@ -611,7 +572,6 @@
       <row ro="mgh" hi="みゅう" ka="ミュウ" an="ﾐｭｳ" so="0" />
       <row ro="mgw" hi="みぇい" ka="ミェイ" an="ﾐｪｲ" so="0" />
       <row ro="mgp" hi="みょう" ka="ミョウ" an="ﾐｮｳ" so="0" />
-
       <row ro="rya" hi="りゃ" ka="リャ" an="ﾘｬ" so="0" />
       <row ro="ryu" hi="りゅ" ka="リュ" an="ﾘｭ" so="0" />
       <row ro="rye" hi="りぇ" ka="リェ" an="ﾘｪ" so="0" />
@@ -625,7 +585,6 @@
       <row ro="ryh" hi="りゅう" ka="リュウ" an="ﾘｭｳ" so="0" />
       <row ro="ryw" hi="りぇい" ka="リェイ" an="ﾘｪｲ" so="0" />
       <row ro="ryp" hi="りょう" ka="リョウ" an="ﾘｮｳ" so="0" />
-
       <row ro="gya" hi="ぎゃ" ka="ギャ" an="ｷﾞｬ" so="0" />
       <row ro="gyu" hi="ぎゅ" ka="ギュ" an="ｷﾞｭ" so="0" />
       <row ro="gye" hi="ぎぇ" ka="ギェ" an="ｷﾞｪ" so="0" />
@@ -639,7 +598,6 @@
       <row ro="gyh" hi="ぎゅう" ka="ギュウ" an="ｷﾞｭｳ" so="0" />
       <row ro="gyw" hi="ぎぇい" ka="ギェイ" an="ｷﾞｪｲ" so="0" />
       <row ro="gyp" hi="ぎょう" ka="ギョウ" an="ｷﾞｮｳ" so="0" />
-
       <row ro="zya" hi="じゃ" ka="ジャ" an="ｼﾞｬ" so="0" />
       <row ro="zyu" hi="じゅ" ka="ジュ" an="ｼﾞｭ" so="0" />
       <row ro="zye" hi="じぇ" ka="ジェ" an="ｼﾞｪ" so="0" />
@@ -653,7 +611,6 @@
       <row ro="zyh" hi="じゅう" ka="ジュウ" an="ｼﾞｭｳ" so="0" />
       <row ro="zyw" hi="じぇい" ka="ジェイ" an="ｼﾞｪｲ" so="0" />
       <row ro="zyp" hi="じょう" ka="ジョウ" an="ｼﾞｮｳ" so="0" />
-
       <row ro="ja" hi="じゃ" ka="ジャ" an="ｼﾞｬ" so="0" />
       <row ro="ju" hi="じゅ" ka="ジュ" an="ｼﾞｭ" so="0" />
       <row ro="je" hi="じぇ" ka="ジェ" an="ｼﾞｪ" so="0" />
@@ -667,7 +624,6 @@
       <row ro="jh" hi="じゅう" ka="ジュウ" an="ｼﾞｭｳ" so="0" />
       <row ro="jw" hi="じぇい" ka="ジェイ" an="ｼﾞｪｲ" so="0" />
       <row ro="jp" hi="じょう" ka="ジョウ" an="ｼﾞｮｳ" so="0" />
-
       <row ro="bya" hi="びゃ" ka="ビャ" an="ﾋﾞｬ" so="0" />
       <row ro="byu" hi="びゅ" ka="ビュ" an="ﾋﾞｭ" so="0" />
       <row ro="bye" hi="びぇ" ka="ビェ" an="ﾋﾞｪ" so="0" />
@@ -681,7 +637,6 @@
       <row ro="byh" hi="びゅう" ka="ビュウ" an="ﾋﾞｭｳ" so="0" />
       <row ro="byw" hi="びぇい" ka="ビェイ" an="ﾋﾞｪｲ" so="0" />
       <row ro="byp" hi="びょう" ka="ビョウ" an="ﾋﾞｮｳ" so="0" />
-
       <row ro="pya" hi="ぴゃ" ka="ピャ" an="ﾋﾟｬ" so="0" />
       <row ro="pyu" hi="ぴゅ" ka="ピュ" an="ﾋﾟｭ" so="0" />
       <row ro="pye" hi="ぴぇ" ka="ピェ" an="ﾋﾟｪ" so="0" />
@@ -695,7 +650,6 @@
       <row ro="pyh" hi="ぴゅう" ka="ピュウ" an="ﾋﾟｭｳ" so="0" />
       <row ro="pyw" hi="ぴぇい" ka="ピェイ" an="ﾋﾟｪｲ" so="0" />
       <row ro="pyp" hi="ぴょう" ka="ピョウ" an="ﾋﾟｮｳ" so="0" />
-
       <row ro="pga" hi="ぴゃ" ka="ピャ" an="ﾋﾟｬ" so="0" />
       <row ro="pgu" hi="ぴゅ" ka="ピュ" an="ﾋﾟｭ" so="0" />
       <row ro="pge" hi="ぴぇ" ka="ピェ" an="ﾋﾟｪ" so="0" />
@@ -709,7 +663,6 @@
       <row ro="pgh" hi="ぴゅう" ka="ピュウ" an="ﾋﾟｭｳ" so="0" />
       <row ro="pgw" hi="ぴぇい" ka="ピェイ" an="ﾋﾟｪｲ" so="0" />
       <row ro="pgp" hi="ぴょう" ka="ピョウ" an="ﾋﾟｮｳ" so="0" />
-
       <row ro="va" hi="ヴぁ" ka="ヴァ" an="ｳﾞｧ" so="0" />
       <row ro="vi" hi="ヴぃ" ka="ヴィ" an="ｳﾞｨ" so="0" />
       <row ro="vu" hi="ヴ" ka="ヴ" an="ｳﾞ" so="0" />
@@ -725,9 +678,6 @@
       <row ro="vh" hi="ヴう" ka="ヴウ" an="ｳﾞｳ" so="0" />
       <row ro="vw" hi="ヴぇい" ka="ヴェイ" an="ｳﾞｪｲ" so="0" />
       <row ro="vp" hi="ヴぉう" ka="ヴォウ" an="ｳﾞｫｳ" so="0" />
-
-<!-- 互換キー 打ちにくいもの -->
-
       <row ro="kf" hi="き" ka="キ" an="ｷ" so="0" />
       <row ro="sf" hi="さい" ka="サイ" an="ｻｲ" so="0" />
       <row ro="ss" hi="せい" ka="セイ" an="ｾｲ" so="0" />
@@ -744,17 +694,11 @@
       <row ro="jf" hi="じゅ" ka="ジュ" an="ｼﾞｭ" so="0" />
       <row ro="cf" hi="ちぇ" ka="チェ" an="ﾁｪ" so="0" />
       <row ro="pf" hi="ぽん" ka="ポン" an="ﾎﾟﾝ" so="0" />
-
-<!-- 拗音 -->
-
       <row ro="tgi" hi="てぃ" ka="ティ" an="ﾃｨ" so="0" />
       <row ro="tgu" hi="とぅ" ka="トゥ" an="ﾄｩ" so="0" />
       <row ro="dci" hi="でぃ" ka="ディ" an="ﾃﾞｨ" so="0" />
       <row ro="dcu" hi="どぅ" ka="ドゥ" an="ﾄﾞｩ" so="0" />
       <row ro="wso" hi="うぉ" ka="ウォ" an="ｳｫ" so="0" />
-
-<!-- 拗音 l* → xx* -->
-
       <row ro="xxa" hi="ぁ" ka="ァ" an="ｧ" so="0" />
       <row ro="xxi" hi="ぃ" ka="ィ" an="ｨ" so="0" />
       <row ro="xxu" hi="ぅ" ka="ゥ" an="ｩ" so="0" />
@@ -765,16 +709,10 @@
       <row ro="xxyo" hi="ょ" ka="ョ" an="ｮ" so="0" />
       <row ro="kA" hi="ゕ" ka="ヵ" an="ｶ" so="0" />
       <row ro="kE" hi="ゖ" ka="ヶ" an="ｹ" so="0" />
-
-<!-- 促音、撥音、長音符 -->
-
       <row ro=";" hi="っ" ka="ッ" an="ｯ" so="0" />
       <row ro="q" hi="ん" ka="ン" an="ﾝ" so="0" />
       <row ro="-" hi="ー" ka="ー" an="ｰ" so="0" />
       <row ro=":" hi="ー" ka="ー" an="ｰ" so="0" />
-
-<!-- 特殊拡張 -->
-
       <row ro="kt" hi="こと" ka="コト" an="ｺﾄ" so="0" />
       <row ro="st" hi="した" ka="シタ" an="ｼﾀ" so="0" />
       <row ro="tt" hi="たち" ka="タチ" an="ﾀﾁ" so="0" />
@@ -802,9 +740,6 @@
       <row ro="nt" hi="にち" ka="ニチ" an="ﾆﾁ" so="0" />
       <row ro="dt" hi="だち" ka="ダチ" an="ﾀﾞﾁ" so="0" />
       <row ro="wr" hi="われ" ka="ワレ" an="ﾜﾚ" so="0" />
-
-<!-- 数字、記号 -->
-
       <row ro="0" hi="0" ka="0" an="0" so="0" />
       <row ro="1" hi="1" ka="1" an="1" so="0" />
       <row ro="2" hi="2" ka="2" an="2" so="0" />
@@ -816,44 +751,42 @@
       <row ro="8" hi="8" ka="8" an="8" so="0" />
       <row ro="9" hi="9" ka="9" an="9" so="0" />
       <row ro=" " hi=" " ka=" " an=" " so="0" />
-      <row ro="!" hi="！" ka="！" an="!" so="0" />		<!-- 全角 -->
+      <row ro="!" hi="！" ka="！" an="!" so="0" />
       <row ro="&quot;" hi="&quot;" ka="&quot;" an="&quot;" so="0" />
       <row ro="#" hi="#" ka="#" an="#" so="0" />
       <row ro="$" hi="$" ka="$" an="$" so="0" />
       <row ro="%" hi="%" ka="%" an="%" so="0" />
       <row ro="&amp;" hi="&amp;" ka="&amp;" an="&amp;" so="0" />
-      <row ro="x'" hi="'" ka="'" an="'" so="0" />		<!-- x前置 -->
+      <row ro="x'" hi="'" ka="'" an="'" so="0" />
       <row ro="(" hi="(" ka="(" an="(" so="0" />
       <row ro=")" hi=")" ka=")" an=")" so="0" />
       <row ro="*" hi="*" ka="*" an="*" so="0" />
       <row ro="+" hi="+" ka="+" an="+" so="0" />
-      <row ro="," hi="、" ka="、" an="､" so="0" />		<!-- 読点 -->
-      <row ro="-" hi="ー" ka="ー" an="ｰ" so="0" />		<!-- 長音 -->
-      <row ro="." hi="。" ka="。" an="｡" so="0" />		<!-- 句点 -->
+      <row ro="," hi="、" ka="、" an="､" so="0" />
+      <row ro="-" hi="ー" ka="ー" an="ｰ" so="0" />
+      <row ro="." hi="。" ka="。" an="｡" so="0" />
       <row ro="/" hi="/" ka="/" an="/" so="0" />
-      <row ro="x:" hi=":" ka=":" an=":" so="0" />		<!-- x前置 -->
-      <row ro="x;" hi=";" ka=";" an=";" so="0" />		<!-- x前置 -->
+      <row ro="x:" hi=":" ka=":" an=":" so="0" />
+      <row ro="x;" hi=";" ka=";" an=";" so="0" />
       <row ro="&lt;" hi="&lt;" ka="&lt;" an="&lt;" so="0" />
       <row ro="=" hi="=" ka="=" an="=" so="0" />
       <row ro=">" hi=">" ka=">" an=">" so="0" />
-      <row ro="?" hi="？" ka="？" an="?" so="0" />		<!-- 全角 -->
+      <row ro="?" hi="？" ka="？" an="?" so="0" />
       <row ro="@" hi="@" ka="@" an="@" so="0" />
-      <row ro="x[" hi="「" ka="「" an="｢" so="0" />		<!-- 括弧 --><!-- x前置 -->
+      <row ro="x[" hi="「" ka="「" an="｢" so="0" />
       <row ro="\" hi="\" ka="\" an="\" so="0" />
-      <row ro="]" hi="」" ka="」" an="｣" so="0" />		<!-- 括弧 -->
+      <row ro="]" hi="」" ka="」" an="｣" so="0" />
       <row ro="^" hi="^" ka="^" an="^" so="0" />
       <row ro="_" hi="_" ka="_" an="_" so="0" />
       <row ro="`" hi="`" ka="`" an="`" so="0" />
-      <row ro="x{" hi="{" ka="{" an="{" so="0" />		<!-- x前置 -->
-
+      <row ro="x{" hi="{" ka="{" an="{" so="0" />
       <row ro="|" hi="|" ka="|" an="|" so="0" />
       <row ro="}" hi="}" ka="}" an="}" so="0" />
       <row ro="~" hi="~" ka="~" an="~" so="0" />
-
       <row ro="z " hi="　" ka="　" an="　" so="0" />
       <row ro="z," hi="‥" ka="‥" an="‥" so="0" />
-      <row ro="z-" hi="～" ka="～" an="～" so="0" />		<!-- チルダ -->
-      <row ro="z~" hi="〜" ka="〜" an="〜" so="0" />		<!-- 波ダッシュ -->
+      <row ro="z-" hi="～" ka="～" an="～" so="0" />
+      <row ro="z~" hi="〜" ka="〜" an="〜" so="0" />
       <row ro="z." hi="…" ka="…" an="…" so="0" />
       <row ro="z/" hi="・" ka="・" an="･" so="0" />
       <row ro="z(" hi="（" ka="（" an="（" so="0" />
@@ -864,7 +797,6 @@
       <row ro="z}" hi="】" ka="】" an="】" so="0" />
       <row ro="z;" hi="゛" ka="゛" an="ﾞ" so="0" />
       <row ro="z:" hi="゜" ka="゜" an="ﾟ" so="0" />
-
       <row ro="xxh" hi="←" ka="←" an="←" so="0" />
       <row ro="xxj" hi="↓" ka="↓" an="↓" so="0" />
       <row ro="xxk" hi="↑" ka="↑" an="↑" so="0" />
