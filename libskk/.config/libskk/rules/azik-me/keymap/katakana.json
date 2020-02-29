@@ -5,8 +5,8 @@
     ],
     "define": {
         "keymap": {
-            "[": "set-input-mode-hiragana",
-            "q": null,
+            "C-@": "commit",
+            "q": "set-input-mode-hiragana",
             "Q": "start-preedit insert-kana-ン"
         }
     }

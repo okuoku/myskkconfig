@@ -4,6 +4,7 @@
     ],
     "define": {
         "keymap": {
+            "C-@": "commit",
             "\\": "set-input-mode-hiragana"
         }
     }
