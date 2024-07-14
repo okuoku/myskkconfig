@@ -5,7 +5,7 @@
     ],
     "define": {
         "keymap": {
-            "C-@": "commit",
+            "C-j": "commit",
             "q": "set-input-mode-katakana",
             "Q": "start-preedit insert-kana-ん"
         }
